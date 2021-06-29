@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+/* header */
+
+header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 80px;
+    width: 100%;
+}
+.✨{
+    display: inline-block;
+    background-color: #4a4a4a;
+    padding: 10px 10px;
+    color: white;
+    margin: 10px 10px 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* main */
+.flex {
+    display: flex;
+}
+.container {
+    width: 100%;
+    height: calc(100vh - 160px);
+}
+
+.🔛 {
+    width: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: grey;
+    cursor: pointer;
+}
+
+.🔛 i {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.fa-caret-right {
+    color: rgb(81, 136, 207);
+}
+
+.🤝 {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.🤝 .📷 {
+    position: relative;
+    width: calc(20% - 10px);
+    height: calc(20% - 10px);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.📷:hover {
+    filter: brightness(1.3);
+}
+
+.📷 .more-web {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0px 0px 0px 4px;
+}
+
+.🤝 .📷 img {
+    width: 100%;
+    height: 100%;
+}
+
+.🤝 .📷 .name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+}
+
+.fa-microphone-alt-slash {
+    color: red;
+    margin-right: 5px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color:#222222;
+    color: white;
+}
+
+footer > div{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px 15px;
+}
+
+.📦{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    padding: 4px 20px;
+}
+
+.📦 a:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.📦:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.📦 .freccia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.icone{
+    font-size: 25px;
+}
+
+.📦 span{
+    display: block;
+    font-size: 14px;
+}
+
+.fa-share-square{
+    color: greenyellow;
+}
+
+.right{
+    justify-content: center;
+    align-items: center;
+    background-color: #4a4a4a;
+}
+
+.right a{
+    color: red;
+}
+.fa-stop-circle {
+    font-size: x-large;
+}
+
